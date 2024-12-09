@@ -27,17 +27,13 @@ TypeORM을 사용하여 MySQL 데이터베이스와 연동됩니다.
 
 다음 환경 변수를 `.env` 파일에 설정해야 합니다:
 
+```bash
 DB_HOST=
-
 DB_PORT=
-
 DB_USERNAME=
-
 DB_PASSWORD=
-
 DB_DATABASE=
-
-PORT=3065
+```
 
 ### 설치 및 실행
 
