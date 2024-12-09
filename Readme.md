@@ -28,21 +28,33 @@ TypeORM을 사용하여 MySQL 데이터베이스와 연동됩니다.
 다음 환경 변수를 `.env` 파일에 설정해야 합니다:
 
 DB_HOST=
+
 DB_PORT=
+
 DB_USERNAME=
+
 DB_PASSWORD=
+
 DB_DATABASE=
+
 PORT=3065
 
 ### 설치 및 실행
 
 패키지 설치
+
 `npm install`
+
 개발 서버 실행
+
 `npm run start:dev`
+
 프로덕션 빌드
+
 `npm run build`
+
 프로덕션 실행
+
 `npm run start:prod`
 
 ## API 엔드포인트
