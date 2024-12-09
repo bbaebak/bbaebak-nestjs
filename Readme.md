@@ -37,21 +37,19 @@ DB_DATABASE=
 
 ### 설치 및 실행
 
+```bash
 패키지 설치
-
-`npm install`
+npm install
 
 개발 서버 실행
-
-`npm run start:dev`
+npm run start:dev
 
 프로덕션 빌드
-
-`npm run build`
+npm run build
 
 프로덕션 실행
-
-`npm run start:prod`
+npm run start:prod
+```
 
 ## API 엔드포인트
 
