@@ -65,3 +65,34 @@ npm run start:prod
 - `PATCH /api/v1/bbaebak/:id/sign/:mateId` - 참여자 서명
 
 ## 프로젝트 구조
+
+```
+📦src
+┣ 📂apis
+┃ ┣ 📂bbaebaks
+┃ ┃ ┣ 📂dto
+┃ ┃ ┃ ┣ 📜sign.dto.ts
+┃ ┃ ┃ ┗ 📜update-bbaebak.dto.ts
+┃ ┃ ┣ 📂entities
+┃ ┃ ┃ ┣ 📜bbaebak.entity.ts
+┃ ┃ ┃ ┗ 📜mate.entity.ts
+┃ ┃ ┣ 📜bbaebaks.controller.ts
+┃ ┃ ┣ 📜bbaebaks.module.ts
+┃ ┃ ┗ 📜bbaebaks.service.ts
+┃ ┣ 📂verification
+┃ ┃ ┣ 📜verification.module.ts
+┃ ┃ ┗ 📜verification.service.ts
+┃ ┗ 📜api.module.ts
+┣ 📂common
+┃ ┣ 📂entities
+┃ ┃ ┗ 📜core.entity.ts
+┃ ┣ 📂interceptors
+┃ ┃ ┗ 📜undefinedToNull.interceptor.ts
+┃ ┗ 📂interfaces
+┃ ┗ 📜api-response.interface.ts
+┣ 📜app.controller.ts
+┣ 📜app.module.ts
+┣ 📜app.service.ts
+┣ 📜http-exception.filter.ts
+┗ 📜main.ts
+```
